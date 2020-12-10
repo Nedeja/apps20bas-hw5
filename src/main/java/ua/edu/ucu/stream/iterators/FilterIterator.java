@@ -22,7 +22,7 @@ public class FilterIterator implements Iterator<Integer> {
                 next = iterator.next();
             }
         } else {
-            hasNext= false;
+            hasNext = false;
         }
     }
 
