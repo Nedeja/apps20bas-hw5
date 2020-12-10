@@ -8,7 +8,7 @@ public interface IntStream {
 
     Integer max();
 
-    Integer min();
+    int min();
     
     IntStream flatMap(IntToIntStreamFunction func);
 
