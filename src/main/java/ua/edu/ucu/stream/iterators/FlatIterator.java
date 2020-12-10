@@ -13,7 +13,8 @@ public class FlatIterator implements Iterator<Integer> {
     private int next;
     private boolean used = false;
 
-    public FlatIterator(Iterator<Integer> prevIterator, IntToIntStreamFunction func) {
+    public FlatIterator(Iterator<Integer> prevIterator, 
+                        IntToIntStreamFunction func) {
         if (used) {
             throw new RuntimeException("Stream is used");
         }
