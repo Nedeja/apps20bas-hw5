@@ -44,7 +44,7 @@ public class AsIntStream implements IntStream {
     }
 
     @Override
-    public int max() {
+    public Integer max() {
         if (!this.iterator.hasNext()) {
             throw new IllegalArgumentException();
         }
@@ -82,7 +82,7 @@ public class AsIntStream implements IntStream {
     }
 
     @Override
-    public int sum() {
+    public Integer sum() {
         if (!this.iterator.hasNext()) {
             throw new IllegalArgumentException();
         }
