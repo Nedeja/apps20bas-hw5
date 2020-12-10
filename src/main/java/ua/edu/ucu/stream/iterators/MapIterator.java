@@ -1,6 +1,5 @@
 package ua.edu.ucu.stream.iterators;
 
-import com.sun.deploy.ui.DialogTemplate;
 import ua.edu.ucu.function.IntUnaryOperator;
 
 import java.util.Iterator;
